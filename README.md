@@ -14,3 +14,7 @@ asciinema brain-calc:
 asciinema brain-gcd:
 
 [![asciicast](https://asciinema.org/a/yVHZ5qFGktFi4Gd7RmfY0dVzn.svg)](https://asciinema.org/a/yVHZ5qFGktFi4Gd7RmfY0dVzn)
+
+asciinema brain-progression:
+
+[![asciicast](https://asciinema.org/a/PrfXzZEB1RWkUFOntzUhRX0BN.svg)](https://asciinema.org/a/PrfXzZEB1RWkUFOntzUhRX0BN)
