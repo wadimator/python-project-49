@@ -22,8 +22,8 @@ def progression():
             print("Correct!")
         else:
             print(
+                f"Question: {result_list}"
                 f"'{answer}' is wrong answer ;(. Correct answer was "
                 f"'{iterator}'.\n Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
-

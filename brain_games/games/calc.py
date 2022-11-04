@@ -24,6 +24,7 @@ def calc():
             print("Correct!")
         else:
             print(
+                f"Question: {random_number1} {random_character} {random_number2}"
                 f"'{answer}' is wrong answer ;(. Correct answer was "
                 f"'{correct_answer}'.\n Let's try again, {name}!")
             return
