@@ -20,7 +20,6 @@ def progression():
             print("Correct!")
         else:
             print(
-                "Question: ", *result_list,
                 f"\n'{answer}' is wrong answer ;(. Correct answer was "
                 f"'{result_number}'.\n Let's try again, {name}!")
             return
