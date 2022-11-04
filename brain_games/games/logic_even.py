@@ -1,9 +1,7 @@
 
 
-def game_logic(number1: int, number2: int, character: str) -> int:
-    if character == "+":
-        return number1 + number2
-    elif character == "-":
-        return number1 - number2
+def game_logic(number: int) -> str:
+    if number % 2 == 0:
+        return "yes"
     else:
-        return number1 * number2
+        return "no"
