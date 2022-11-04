@@ -1,5 +1,4 @@
 #!/usr/bin/env python3.9
-import random
 import prompt
 from brain_games.games.logic_progression import game_logic
 
@@ -11,19 +10,18 @@ def progression():
 
     print('Find the greatest common divisor of given numbers.')
     for i in range(3):
-        iterator = random.randint(1, 10)
-        result_list = game_logic(iterator)
+        result_list, result_number = game_logic()
 
-        print(f"Question: {result_list}")
+        print("Question: ", *result_list)
 
         answer = prompt.integer("Your answer: ")
 
-        if answer == iterator:
+        if answer == result_number:
             print("Correct!")
         else:
             print(
-                f"Question: {result_list}"
-                f"'{answer}' is wrong answer ;(. Correct answer was "
-                f"'{iterator}'.\n Let's try again, {name}!")
+                "Question: ", *result_list,
+                f"\n'{answer}' is wrong answer ;(. Correct answer was "
+                f"'{result_number}'.\n Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
