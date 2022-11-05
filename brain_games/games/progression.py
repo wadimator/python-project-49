@@ -12,7 +12,7 @@ def progression():
     for i in range(3):
         result_list, result_number = game_logic()
 
-        print("Question: ", *result_list)
+        print("Question:", *result_list)
 
         answer = prompt.integer("Your answer: ")
 
