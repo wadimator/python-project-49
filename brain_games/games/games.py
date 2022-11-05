@@ -2,4 +2,6 @@
 
 
 def game():
-    print("poetry run python -m brain_games.scripts.brain_games\nWelcome to the Brain Games!")
+    print(
+        "poetry run python -m brain_games.scripts."
+        "brain_games\nWelcome to the Brain Games!")

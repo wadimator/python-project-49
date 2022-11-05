@@ -5,7 +5,9 @@ from brain_games.games.logic_even import game_logic
 
 
 def even():
-    print("poetry run python -m brain_games.scripts.brain_games\nWelcome to the Brain Games!")
+    print(
+        "poetry run python -m brain_games.scripts."
+        "brain_games\nWelcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
 
