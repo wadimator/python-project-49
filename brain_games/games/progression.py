@@ -8,7 +8,7 @@ def progression():
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
 
-    print('Find the greatest common divisor of given numbers.')
+    print('What number is missing in the progression?')
     for i in range(3):
         result_list, result_number = game_logic()
 
